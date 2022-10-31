@@ -93,7 +93,7 @@ public class TourStatus {
                 backpack.remove(i);
                 return currentLocation.getItemNamed(name);
             }
-            else{
+            else if (i == backpack.size()){
                 return null;
             }
         }
